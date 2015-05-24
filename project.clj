@@ -17,6 +17,7 @@
                  [cljs-http "0.1.30"]
                  [yesql "0.4.1"]
                  [garden "1.2.5"]
+                 [org.clojure/data.json "0.2.6"]
                  [org.postgresql/postgresql "9.4-1201-jdbc41"]
                  [ch.qos.logback/logback-classic "1.1.1"]
                  [org.clojure/tools.logging "0.2.3"]
