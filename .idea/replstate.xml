@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ReplState" timestamp="1432460897439">{:repl-history {:ide [], :local [&quot;(run\n  )&quot; &quot;(+ 1 1\n   )&quot; &quot;:cljs/quit&quot; &quot;(browser-repl\n  )&quot;], :remote []}}</component>
+  <component name="ReplState" timestamp="1432462435414">{:repl-history {:ide [], :local [&quot;(+ 1 1\n   )&quot; &quot;:cljs/quit&quot; &quot;(browser-repl\n  )&quot; &quot;(run\n  )&quot;], :remote []}}</component>
 </project>

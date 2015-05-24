@@ -30,10 +30,12 @@
     <orderEntry type="library" name="Leiningen: environ:1.0.0" level="project" />
     <orderEntry type="library" name="Leiningen: figwheel-sidecar:0.2.1-20150106.010346-1" level="project" />
     <orderEntry type="library" name="Leiningen: figwheel:0.2.1-20150106.010500-1" level="project" />
+    <orderEntry type="library" name="Leiningen: fogus/ring-edn:0.2.0" level="project" />
     <orderEntry type="library" name="Leiningen: garden:1.2.5" level="project" />
-    <orderEntry type="library" name="Leiningen: org.clojure/clojure:1.6.0" level="project" />
+    <orderEntry type="library" name="Leiningen: org.clojure/clojure:1.7.0-RC1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Leiningen: org.clojure/clojurescript:0.0-2511" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/core.async:0.1.346.0-17112a-alpha" level="project" />
+    <orderEntry type="library" name="Leiningen: org.clojure/core.contracts:0.0.5" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/data.json:0.2.6" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/tools.logging:0.2.3" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/tools.nrepl:0.2.6" level="project" />
@@ -110,6 +112,7 @@
     <orderEntry type="library" name="Leiningen: org.ow2.asm/asm-all:4.1" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/core.cache:0.6.3" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/data.priority-map:0.0.2" level="project" />
+    <orderEntry type="library" name="Leiningen: org.clojure/core.unify:0.5.3" level="project" />
     <orderEntry type="library" name="Leiningen: cljsjs/react:0.12.2-5" level="project" />
     <orderEntry type="library" name="Leiningen: javax.servlet/servlet-api:2.5" level="project" />
     <orderEntry type="library" name="Leiningen: ring/ring-anti-forgery:1.0.0" level="project" />

@@ -9,10 +9,10 @@
 (defn render-page []
   (r/render
     [content]
-    (.-body js/document (getElementById "app"))))
+    (.-body js/document)))
 
-(defn run []
+(defn main []
   (dispatch-sync ^:flush-dom [:initialize 1])
   (render-page))
 
-(run)
+;;(main)
