@@ -10,3 +10,10 @@ pom.xml.asc
 /resources/public/js
 /out
 /.repl
+*log
+/lib
+/native
+/.lein-failures
+/.lein-deps-sum
+/.lein-repl-history
+/.nrepl-port

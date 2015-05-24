@@ -1,15 +1,18 @@
 (ns stockgame-chestnut.core
-  (:require [om.core :as om :include-macros true]
-            [om.dom :as dom :include-macros true]))
+  (:require [reagent.core  :as r]
+            [stockgame-chestnut.components :as cp :refer [content]]
+            [stockgame-chestnut.subs :as subs]                            ;;executed before
+            [re-frame.core :as rf :refer [dispatch-sync]]))
 
-(defonce app-state (atom {:text "Hello Chestnut!"}))
+(enable-console-print!)
 
-(defn main []
-  (om/root
-    (fn [app owner]
-      (reify
-        om/IRender
-        (render [_]
-          (dom/h1 nil (:text app)))))
-    app-state
-    {:target (. js/document (getElementById "app"))}))
+(defn render-page []
+  (r/render
+    [content]
+    (.-body js/document (getElementById "app"))))
+
+(defn run []
+  (dispatch-sync ^:flush-dom [:initialize 1])
+  (render-page))
+
+(run)
