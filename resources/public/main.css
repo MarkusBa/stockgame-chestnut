@@ -1,0 +1,46 @@
+.datalist {
+  list-style-type: none;
+}
+
+.all {
+  overflow: auto;
+}
+
+.content {
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+th {
+  background-color: #ccc;
+}
+
+td {
+  background-color: #eee;
+}
+
+.navelement-link {
+  float: left;
+  color: blue;
+  cursor: pointer;
+  border: 1px;
+  margin: 5px;
+  font-weight: bold;
+}
+
+.navelement {
+  float: left;
+  color: black;
+  cursor: default;
+  border: 1px;
+  margin: 5px;
+  font-weight: bold;
+}
