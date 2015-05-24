@@ -9,10 +9,12 @@
 
   :test-paths ["spec/clj"]
 
-  :dependencies [[org.clojure/clojure "1.6.0"]
+  :dependencies [[org.clojure/clojure "1.7.0-RC1"]
                  [org.clojure/clojurescript "0.0-2511" :scope "provided"]
                  [org.clojure/core.async "0.1.346.0-17112a-alpha"]
                  [com.cognitect/transit-cljs "0.8.207"]
+                 [org.clojure/core.contracts "0.0.5"]
+                 [fogus/ring-edn "0.2.0"]
                  [clj-http "1.1.0"]
                  [cljs-http "0.1.30"]
                  [yesql "0.4.1"]

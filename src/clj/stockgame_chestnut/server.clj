@@ -125,6 +125,7 @@
 
 (deftemplate page (io/resource "index.html") []
   [:body] (if is-dev? inject-devmode-html identity))
+
 (comment
   (defroutes routes
              (GET "/" [] (index))
@@ -146,7 +147,19 @@
 (defroutes routes
   (resources "/")
   (resources "/react" {:root "react"})
-  (GET "/*" req (page)))
+  (GET "/" [] (page))
+  (GET "/symbol" {params :params}
+    (getsymbol params))
+  (GET "/history" {params :params}
+    (gethistory params))
+  (POST "/order" {params :params}
+    (order params))
+  (POST "/sell" {params :params}
+    (sell params))
+  (GET "/stock" {params :params}
+    (getstock params))
+  (GET "/items" {params :params} (items params))
+  )
 
 (def http-handler
   (if is-dev?
